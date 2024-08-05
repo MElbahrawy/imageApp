@@ -1,0 +1,8 @@
+body {
+  background-color: #eee !important;
+}
+
+img {
+  object-fit: cover;
+  height: 300px;
+}

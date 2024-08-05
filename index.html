@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/master.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/326ea70cfe.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Medo</title>
+  </head>
+  <body>
+    <div class="container pt-5">
+      <header>
+        <h1 class="text-center my-5">Images Search Engine</h1>
+        <form action="" class="m-5 mx-auto px-5 d-flex">
+          <input
+            type="text"
+            id="search"
+            class="form-control p-3"
+            placeholder="What are you looking for ..?"
+          />
+          <input
+            type="submit"
+            class="btn btn-primary px-5 ms-2"
+            value="Search"
+          />
+        </form>
+      </header>
+      <div class="gallery d-flex justify-content-evenly row gap-5"></div>
+      <div>
+        <hr />
+        <button class="btn btn-primary mx-auto mb-5 d-none show-more px-3 py-2">
+          Show More
+        </button>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
