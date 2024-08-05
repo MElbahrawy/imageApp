@@ -14,7 +14,7 @@ const createElement = (data) => {
   data.map((pic) => {
     const img = document.createElement("img");
     img.className = "col-lg-3 col-md-5 col-sm-12 rounded-1";
-    img.src = pic.urls.full;
+    img.src = pic.urls.small;
     img.alt = pic.alt_description;
     container.appendChild(img);
     console.log(img);
